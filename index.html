@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="/" >
+            <section class="info">
+                <h2>Contact Information</h2>
+                <p class="infop">Fill your details in the form below</p><hr>
+                <p class="user infop">googletestuser@gmail.com <a class="accountlink" href="https://accounts.google.com/" target="main()">Switch accounts</a></p><hr>
+                <p class="red infop">* Indicates Required question</p>
+            </section>
+            <section class="name section" >
+                <p class="detailsp">Name <span class="red">*</span></p>
+                <input type="text" placeholder="Your answer" id="name" required>
+                <span class="error" id="error1"></span>
+            </section>
+            <section class="email section" >
+                <p class="detailsp">Email <span class="red">*</span></p>
+                <input type="email" placeholder="Your answer" id="email" required>
+                <span class="error" id="error2"></span>
+            </section>
+            <section class="address section" >
+                <p class="detailsp">Address <span class="red">*</span></p>
+                <input type="text" placeholder="Your answer" id="address" required>
+                <span class="error" id="error3"></span>
+            </section>
+            <section class="phone section">
+                <p class="detailsp">Phone number</p>
+                <input type="text" placeholder="Your answer">
+            </section>
+            <section class="comment section">
+                <p class="detailsp">Comments</p>
+                <input type="text" placeholder="Your answer">
+            </section>
+            <div class="buttons">
+                <button class="submit">Submit</button>
+                <button class="clear" id="clear">Clear form</button>
+            </div>
+        </form>
+        <div class="footnote">Never submit passwords through Google Forms.</div>
+        <footer>This content is neither created nor endorsed by Google. <a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLScYInCx5xN2QD1jaALx2UKS5EzwDvZJt1Ghy3MEN5tIJXnSiA/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLScYInCx5xN2QD1jaALx2UKS5EzwDvZJt1Ghy3MEN5tIJXnSiA/viewform" target="main()">Report Abuse</a> - <a href="https://policies.google.com/terms" target="main()">Terms of Service</a> - <a href="https://policies.google.com/privacy" target="main()">Privacy policy</a></footer>
+        <div class="googleforms"><a href="https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms" target="main()"><img src="google.png" alt=""><span>Forms</span></a></div>
+    </div>
+   
+</body>
+
+</html>
